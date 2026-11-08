@@ -6,8 +6,8 @@ import 'screens/home_screen.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-    url: 'YOUR_SUPABASE_URL', // بدلها بالرابط ديالك
-    anonKey: 'YOUR_SUPABASE_ANON_KEY', // بدلها بالمفتاح ديالك
+    url: 'https://mtptprbkazfjgjqejfdv.supabase.co', // بدلها بالرابط ديالك
+    anonKey: 'sb_publishable_dXsjXwlLihQGlTmo5qs0Rg_vY4sCv4Q', // بدلها بالمفتاح ديالك
   );
   runApp(const MotoApp());
 }
